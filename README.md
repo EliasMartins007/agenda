@@ -1,3 +1,11 @@
-# aluraagenda
+# como rodar esse projeto
+clone o projeto
 
-Mini app de agenda (não-prático) para exemplificação de um post no Blog da Alura 
+instalar via pip
+pip install -r requirements.txt
+
+#executar
+manager.py runserver
+
+abrir no browser
+http://127.0.0.1:8000/
