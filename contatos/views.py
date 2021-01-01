@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from .models import Contatos
 
 def index(request):
-	html = "<html><body><h1>Lista de Contatos Elias Django</h1>"
+	html = "<html><head><title>site</title></head><body><h1>Lista de Contatos Elias Django</h1>"
 	contatos = Contatos.objects.all()
 	for contato in contatos:
 		html += "{} - {}<br>".format(contato.nome, contato.telefone)
